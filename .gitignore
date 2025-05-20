@@ -1,0 +1,52 @@
+# Node.js and npm
+node_modules/
+npm-debug.log
+package-lock.json
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Build outputs
+/dist
+/build
+/coverage
+
+# Logs
+logs
+*.log
+*.log.*
+
+# Dependency directories
+/backend/node_modules/
+/frontend/node_modules/
+
+# React-specific build outputs
+/frontend/build/
+/frontend/coverage/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Testing
+/coverage
+*.test.js
+*.spec.js
+
+# Miscellaneous
+*.bak
+*.tmp
+*.cache

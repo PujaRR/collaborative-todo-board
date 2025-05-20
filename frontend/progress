@@ -1,0 +1,21 @@
+funcationality
+unique email id 
+sherable board(by default also the list should be acesss)
+sherable button on corner on board given that input field is another users email id 
+another user should be able to view modify and delete the contents
+add delete for board
+add dark mode 
+there is a error in functinality (when we create two list and add a item and move it to next list it gives error on page but comeing  back to board page the item is sucessfulluy move to second board . error here is it does not handle in run time and gives error )
+
+
+in this project 1st user created after second user does not register  check error
+check functionality user login logout register specficaaly register is not working
+after successful registration it should go to board
+after every suceesful login may be its creating main board again and agian 
+share board is not working 
+
+The progress note mentions dark mode and other functionalities. If you need help implementing dark mode or fixing other issues (e.g., board creation duplication), please provide specific details, and I can provide additional updates.
+
+
+Your progress note indicates that registration fails after logout. This could be due to:
+A stale token being sent in the Authorization header (though /register doesn’t require authentication).
